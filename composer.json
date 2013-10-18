@@ -1,0 +1,50 @@
+{
+    "name": "gridguyz/contentlist",
+    "type": "gridguyz-module",
+    "description": "ContentList module for Gridguyz CMS",
+    "license": "CC-BY-SA-3.0",
+    "keywords": [
+        "gridguyz",
+        "module",
+        "content-list",
+        "tags"
+    ],
+    "homepage": "http://gridguyz.com/",
+    "authors": [
+        {
+            "name": "David Pozsar",
+            "email": "david.pozsar@megaweb.hu",
+            "homepage": "http://gridguyz.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "dev@megaweb.hu",
+        "source": "https://github.com/gridguyz/contentlist"
+    },
+    "require": {
+        "php": ">=5.4",
+        "gridguyz/module-installer": "*",
+        "gridguyz/core": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Grid\\ContentList": "src/"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    },
+    "extra": {
+        "display-icon": {
+            "63": "https://raw.github.com/gridguyz/contentlist/%reference%/icons/63x63.png"
+        },
+        "display-name": {
+            "en": "Content List"
+        },
+        "display-description": {
+            "en": "This is a paragraph that can aggregate and outline several content pages in a list. The aggregation is done based on the tags assigned to the content pages. It does a great job in creating article groups or blog groups. In order to achieve a greater impact, we suggest you also use the *Tag Cloud* APP."
+        },
+        "module": "Grid\\ContentList"
+    }
+}
