@@ -167,7 +167,7 @@ return array(
     ),
     'translator' => array(
         'translation_file_patterns' => array(
-            'tag' => array(
+            'contentList' => array(
                 'type'          => 'phpArray',
                 'base_dir'      => __DIR__ . '/../languages/contentList',
                 'pattern'       => '%s.php',
