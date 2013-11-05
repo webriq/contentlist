@@ -25,7 +25,9 @@ return array(
                     'spec'  => array(
                         'options'   => array(
                             'options'   => array(
-                                'basic' => array(
+                                'functions'     => array(
+                                    'label'     => 'paragraph.type-group.functions',
+                                    'order'     => 4,
                                     'options'   => array(
                                         'contentList'   => 'paragraph.type.contentList',
                                     ),
