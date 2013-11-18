@@ -11,5 +11,6 @@ return array(
     'contentList.paragraph.form.displayLeadText' => 'Display lead text',
     'contentList.paragraph.form.displayReadMore' => 'Display "read more" link',
     'contentList.paragraph.form.tags' => 'Tags',
+    'contentList.paragraph.moreEntries' => 'More entries',
     'contentList.paragraph.tagsLabel' => 'Tags',
 );
