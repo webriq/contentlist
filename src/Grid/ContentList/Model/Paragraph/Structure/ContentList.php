@@ -88,6 +88,14 @@ class ContentList extends AbstractLeaf
     protected $displayReadMore = true;
 
     /**
+     * microcontent share setting
+     * 
+     * @var string (empty)|enable|disable  
+     */
+    protected $microcontentShare = '';
+    
+    
+    /**
      * Get paragraph-model
      *
      * @return \Paragraph\Model\Paragraph\Model
@@ -178,6 +186,21 @@ class ContentList extends AbstractLeaf
                         $this->getLocaleTags(),
                         $this->isModeAll()
                     );
+    }
+    
+    /**
+     * 
+     * @param string $value
+     * @return \Grid\ContentList\Model\Paragraph\Structure\ContentList
+     */
+    public function setMicrocontentShare($value) 
+    {
+        $value = strtolower($value);
+        $allowed = array('','enable','disable');
+        $this->microcontentShare = in_array($value, $allowed)
+                                    ? $value
+                                    : '';
+        return $this;
     }
 
 }
