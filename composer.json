@@ -1,31 +1,31 @@
 {
-    "name": "gridguyz/contentlist",
-    "type": "gridguyz-module",
-    "description": "ContentList module for Gridguyz CMS",
-    "license": "CC-BY-SA-3.0",
+    "name": "webriqcms/contentlist",
+    "type": "webriqcms-module",
+    "description": "ContentList module for WebriQ CMS",
+    "license": "BDS-3-Clause",
     "keywords": [
-        "gridguyz",
+        "webriqcms",
         "module",
         "content-list",
         "tags"
     ],
-    "homepage": "http://gridguyz.com/",
+    "homepage": "http://webriq.com/",
     "authors": [
         {
-            "name": "David Pozsar",
-            "email": "david.pozsar@megaweb.hu",
-            "homepage": "http://gridguyz.com/",
-            "role": "Developer"
+            "name": "WebriQ Dev Team",
+            "email": "info@webriq.com",
+            "homepage": "http://webriq.com/",
+            "role": "Development Team"
         }
     ],
     "support": {
-        "email": "dev@megaweb.hu",
-        "source": "https://github.com/gridguyz/contentlist"
+        "email": "info@webriq.com",
+        "source": "https://github.com/webriq/contentlist"
     },
     "require": {
         "php": ">=5.4",
-        "gridguyz/module-installer": "*",
-        "gridguyz/core": "*"
+        "webriqcms/module-installer": "*",
+        "webriqcms/core": "*"
     },
     "autoload": {
         "psr-0": {
@@ -37,7 +37,7 @@
     },
     "extra": {
         "display-icon": {
-            "63": "https://raw.github.com/gridguyz/contentlist/%reference%/icons/63x63.png"
+            "63": "https://raw.github.com/webriq/contentlist/%reference%/icons/63x63.png"
         },
         "display-name": {
             "en": "Content List"
